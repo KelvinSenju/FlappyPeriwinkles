@@ -186,7 +186,7 @@ pipes = {
                                 score.current++
                                 SFX_SCORE.play()
                                 // when player reaches 15, show message and pause game
-                                if (score.current === 15) {
+                                if (score.current === 6) {
                                     showMessage()
                                 }
                     }
